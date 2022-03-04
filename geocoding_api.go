@@ -102,7 +102,7 @@ type GeocodingAddressResponseLocation struct {
 		Latitude  float64 `json:"lat,omitempty"`
 		Longitude float64 `json:"lng,omitempty"`
 	} `json:"latLng,omitempty"`
-	LinkId       int    `json:"linkId,omitempty"`
+	LinkId       string `json:"linkId,omitempty"`
 	MapUrl       string `json:"mapUrl,omitempty"`
 	PostalCode   string `json:"postalCode,omitempty"`
 	SideOfStreet string `json:"sideOfStreet,omitempty"`
